@@ -1,0 +1,11 @@
+[package]
+name = "exonum-binding"
+version = "0.1.0"
+authors = ["Sergey Kletsun <sergey.kletsun@gmail.com>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+exonum = { path = "../exonum" }
+jni = "0.10.2"

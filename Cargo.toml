@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "exonum",
+    "testkit",
+    "exonum-binding",
+    "testkit-binding",
+]

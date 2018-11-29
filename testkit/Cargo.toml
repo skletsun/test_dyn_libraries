@@ -1,0 +1,10 @@
+[package]
+name = "testkit"
+version = "0.1.0"
+authors = ["Sergey Kletsun <sergey.kletsun@gmail.com>"]
+
+#[lib]
+#crate-type = ["dylib"]
+
+[dependencies]
+exonum = { path = "../exonum" }
